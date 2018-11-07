@@ -32,7 +32,7 @@ This component follows **Unchained** UI guidelines.
 
 Constructor options:
 
-* __routes__ array, routes and views mapping. Each element is an array. `[<name>, <pattern>, <ViewClass> [, AuthenticatedViewClass]]`. If `AuthenticatedViewClass` is present, the views will show it instead of the `ViewClass` when app is authenticated. Check the [uc-app](https://github.com/unchained/app) for more info.
+* __routes__ array, routes and views mapping. Each element is an array. `[<name>, <pattern>, <ViewClass> [, AuthenticatedViewClass]]`. If `AuthenticatedViewClass` is present, the views will show it instead of the `ViewClass` when app is authenticated. Check the [uc-app](https://github.com/unchainedui/app) for more info.
 * onChange — function, callback will be called when view is changed.
 * el — HTMLElement, the views container. If ommited the `div.views` is created.
 * rootEl — HTMLElement, default `html`, top element to apply active view classes.
